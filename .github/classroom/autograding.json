@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Run Tests",
+      "setup": "HOME=/tmp mix do local.rebar --force, local.hex --force, deps.get",
+      "run": "HOME=/tmp mix test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
